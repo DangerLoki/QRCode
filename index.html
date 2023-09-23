@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador e Leitor de QR Code </title>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js" defer></script>
+</head>
+<body>
+    <div id="qrcode"></div>
+    <input type="button" value="Gerar QR Code" onclick="gerarQRCode()">
+    <input type="button" value="Compartilhar QR Code" onclick="compartilharQRCode()">
+    <input type="button" value="Ler QR Code" onclick="abrirCamera()">
+    <video id="preview" width="320" height="240" autoplay></video>
+
+    <script src="js/index.js" defer></script>
+</body>
+</html>
